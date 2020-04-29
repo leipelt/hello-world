@@ -1,2 +1,4 @@
 theme: jekyll-theme-cayman
+title: jekyll테스트
+description : 다운로드버튼 좀 나왔으면...
 show_downloads: true
