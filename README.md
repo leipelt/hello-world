@@ -1,6 +1,4 @@
 # hello-world
-test
-
-Comiit_Test
+Commit_Test
 한글도 되나?
 얍얍
