@@ -8,6 +8,8 @@
 layout: home
 ---
 
+[다운받기][download]
+
 leipelt Blog Theme is a clean, responsive blogging theme for Jekyll. It is inspired by the leipelt Theme for Github Pages, which can be greatly used for single projects but not as blogging platform.
 
 This theme has instead all you need to start today blogging with Jekyll, and no effort: pages, posts, few social buttons. Try loading this on mobile too.
@@ -15,3 +17,6 @@ This theme has instead all you need to start today blogging with Jekyll, and no 
 Have a look at the Github page for more information.
 
 You find this descriptive text in the `index.md` file, so you can change it, or remove it completely, according to your needs.
+
+
+[download]: https://github.com/leipelt/hello-world/releases/download/%ED%85%8C%EC%8A%A4%ED%8A%B8/test.exe
