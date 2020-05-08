@@ -1,6 +1,6 @@
 # The leipelt Blog theme
 
-[![Build Status](https://travis-ci.org/leipelt/hello-world.svg?branch=master)](https://travis-ci.org/leipelt/hello-world) [![Gem Version](https://badge.fury.io/rb/jekyll-theme-hello-world.svg)](https://badge.fury.io/rb/jekyll-theme-hello-world)
+[![Build Status](https://travis-ci.org/leipelt/hello-world.svg?branch=master)](https://travis-ci.org/leipelt/hello-world) [![Gem Version](https://badge.fury.io/rb/jekyll-theme-cayman-blog.svg)](https://badge.fury.io/rb/jekyll-theme-cayman-blog)
 
 *leipelt Blog is a Jekyll theme for GitHub Pages. It is based on the nice [leipelt theme](https://pages-themes.github.io/leipelt/), with blogging features added. You can [preview the theme to see what it looks like](http://leipelt.github.io/hello-world), or even [use it today](#usage).*
 
@@ -17,13 +17,13 @@ If you’re running Jekyll v3.3+ and **self-hosting** you can quickly install th
 1. Add this line to your Jekyll site’s Gemfile:
 
     ```
-    gem "jekyll-theme-hello-world"
+    gem "jekyll-theme-cayman-blog"
     ```
 
 2. Add this line to your Jekyll site’s _config.yml file:
 
     ```
-    theme: jekyll-theme-hello-world
+    theme: jekyll-theme-cayman-blog
     ```
 
 3. Then run Bundler to install the theme gem and dependencies:
@@ -51,11 +51,11 @@ Alternatively, for new projects, one could fork the whole theme, and keep only t
 
 This method is preferred for existing _Jekyll blogs_, as well as newly created ones. Notice that the files `index.md`, `about.md`, `contact.md` will be overwritten (only `index.md` is really needed, the other two are just placeholders).
 
-1. Install the theme gem: ` $ gem install jekyll-theme-hello-world`
+1. Install the theme gem: ` $ gem install jekyll-theme-cayman-blog`
 3. Run `$ gem env gemdir` to know where the gem was installed
 4. Open the folder shown in the output
 5. Open the folder `gems`
-5. Open the theme folder (e.g. `jekyll-theme-hello-world-0.0.5`)
+5. Open the theme folder (e.g. `jekyll-theme-cayman-blog-0.0.5`)
 6. Copy all the files into your newly created or existing blog folder    
 7. Leave empty `theme` your site's `_config.yml`:
 

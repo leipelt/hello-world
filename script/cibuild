@@ -7,4 +7,4 @@ bundle exec htmlproofer ./_site --check-html
 # bundle exec htmlproofer ./_site --check-html --check-sri
 # bundle exec rubocop -D
 # bundle exec script/validate-html
-# gem build jekyll-theme-hello-world.gemspec
+# gem build jekyll-theme-cayman-blog.gemspec
