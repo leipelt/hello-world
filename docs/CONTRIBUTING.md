@@ -13,7 +13,7 @@ We'd love to help. Check out [the support guidelines](SUPPORT.md).
 
 ## How to report a bug
 
-Think you found a bug? Please check [the list of open issues](https://github.com/lorepirri/cayman-blog/issues) to see if your bug has already been reported. If it hasn't please [submit a new issue](https://github.com/lorepirri/cayman-blog/issues/new).
+Think you found a bug? Please check [the list of open issues](https://github.com/leipelt/hello-world/issues) to see if your bug has already been reported. If it hasn't please [submit a new issue](https://github.com/leipelt/hello-world/issues/new).
 
 Here are a few tips for writing *great* bug reports:
 
@@ -32,7 +32,7 @@ If you find yourself wishing for a feature that doesn't exist in The Cayman Blog
 
 Feature requests are welcome. But take a moment to find out whether your idea fits with the scope and goals of the project. It's up to you to make a strong case to convince the project's developers of the merits of this feature. Please provide as much detail and context as possible, including describing the problem you're trying to solve.
 
-[Open an issue](https://github.com/lorepirri/cayman-blog/issues/new) which describes the feature you would like to see, why you want it, how it should work, etc.
+[Open an issue](https://github.com/leipelt/hello-world/issues/new) which describes the feature you would like to see, why you want it, how it should work, etc.
 
 
 
@@ -40,8 +40,8 @@ Feature requests are welcome. But take a moment to find out whether your idea fi
 
 We'd love for you to contribute to the project. Unsure where to begin contributing to The Cayman Blog Theme? You can start by looking through these "good first issue" and "help wanted" issues:
 
-* [Good first issues](https://github.com/lorepirri/cayman-blog/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) - issues which should only require a few lines of code and a test or two
-* [Help wanted issues](https://github.com/lorepirri/cayman-blog/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22) - issues which may be a bit more involved, but are specifically seeking community contributions
+* [Good first issues](https://github.com/leipelt/hello-world/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) - issues which should only require a few lines of code and a test or two
+* [Help wanted issues](https://github.com/leipelt/hello-world/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22) - issues which may be a bit more involved, but are specifically seeking community contributions
 
 *p.s. Feel free to ask for help; everyone is a beginner at first* :smiley_cat:
 
@@ -59,12 +59,12 @@ Here's a few general guidelines for proposing changes:
 
 At a high level, [the process for proposing changes](https://guides.github.com/introduction/flow/) is:
 
-1. [Fork](https://github.com/lorepirri/cayman-blog/fork) and clone the project
+1. [Fork](https://github.com/leipelt/hello-world/fork) and clone the project
 2. Configure and install the dependencies: `script/bootstrap`
 3. Make sure the tests pass on your machine: `script/cibuild`
 4. Create a new branch: `git checkout -b my-branch-name`
 5. Make your change, add tests, and make sure the tests still pass
-6. Push to your fork and [submit a pull request](https://github.com/lorepirri/cayman-blog/compare)
+6. Push to your fork and [submit a pull request](https://github.com/leipelt/hello-world/compare)
 7. Pat your self on the back and wait for your pull request to be reviewed and merged
 
 **Interesting in submitting your first Pull Request?** It's easy! You can learn how from this *free* series [How to Contribute to an Open Source Project on GitHub](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github)

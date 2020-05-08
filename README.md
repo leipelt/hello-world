@@ -1,10 +1,10 @@
 # The Cayman Blog theme
 
-[![Build Status](https://travis-ci.org/lorepirri/cayman-blog.svg?branch=master)](https://travis-ci.org/lorepirri/cayman-blog) [![Gem Version](https://badge.fury.io/rb/jekyll-theme-cayman-blog.svg)](https://badge.fury.io/rb/jekyll-theme-cayman-blog)
+[![Build Status](https://travis-ci.org/leipelt/hello-world.svg?branch=master)](https://travis-ci.org/leipelt/hello-world) [![Gem Version](https://badge.fury.io/rb/jekyll-theme-hello-world.svg)](https://badge.fury.io/rb/jekyll-theme-hello-world)
 
-*Cayman Blog is a Jekyll theme for GitHub Pages. It is based on the nice [Cayman theme](https://pages-themes.github.io/cayman/), with blogging features added. You can [preview the theme to see what it looks like](http://lorepirri.github.io/cayman-blog), or even [use it today](#usage).*
+*Cayman Blog is a Jekyll theme for GitHub Pages. It is based on the nice [Cayman theme](https://pages-themes.github.io/cayman/), with blogging features added. You can [preview the theme to see what it looks like](http://leipelt.github.io/hello-world), or even [use it today](#usage).*
 
-<img src="https://raw.githubusercontent.com/lorepirri/cayman-blog/master/thumbnail.png" alt="Thumbnail of cayman-blog" style="max-width:30%; border: 1px solid grey;"/> <img src="https://raw.githubusercontent.com/lorepirri/cayman-blog/master/thumbnail-mobile.gif" alt="Thumbnail of cayman-blog for mobile" style="max-width:30%;"/>
+<img src="https://raw.githubusercontent.com/leipelt/hello-world/master/thumbnail.png" alt="Thumbnail of hello-world" style="max-width:30%; border: 1px solid grey;"/> <img src="https://raw.githubusercontent.com/leipelt/hello-world/master/thumbnail-mobile.gif" alt="Thumbnail of hello-world for mobile" style="max-width:30%;"/>
 
 ## Install
 
@@ -17,13 +17,13 @@ If you’re running Jekyll v3.3+ and **self-hosting** you can quickly install th
 1. Add this line to your Jekyll site’s Gemfile:
 
     ```
-    gem "jekyll-theme-cayman-blog"
+    gem "jekyll-theme-hello-world"
     ```
 
 2. Add this line to your Jekyll site’s _config.yml file:
 
     ```
-    theme: jekyll-theme-cayman-blog
+    theme: jekyll-theme-hello-world
     ```
 
 3. Then run Bundler to install the theme gem and dependencies:
@@ -51,11 +51,11 @@ Alternatively, for new projects, one could fork the whole theme, and keep only t
 
 This method is preferred for existing _Jekyll blogs_, as well as newly created ones. Notice that the files `index.md`, `about.md`, `contact.md` will be overwritten (only `index.md` is really needed, the other two are just placeholders).
 
-1. Install the theme gem: ` $ gem install jekyll-theme-cayman-blog`
+1. Install the theme gem: ` $ gem install jekyll-theme-hello-world`
 3. Run `$ gem env gemdir` to know where the gem was installed
 4. Open the folder shown in the output
 5. Open the folder `gems`
-5. Open the theme folder (e.g. `jekyll-theme-cayman-blog-0.0.5`)
+5. Open the theme folder (e.g. `jekyll-theme-hello-world-0.0.5`)
 6. Copy all the files into your newly created or existing blog folder    
 7. Leave empty `theme` your site's `_config.yml`:
 
@@ -67,7 +67,7 @@ This method is preferred for existing _Jekyll blogs_, as well as newly created o
 
 ### Install as a Fork
 
-1. [Fork the repo](https://github.com/lorepirri/cayman-blog)
+1. [Fork the repo](https://github.com/leipelt/hello-world)
 2. Clone down the repo with `$ git clone git@github.com:username/reponame.git`
 3. Delete the `screenshot.png` and `screenshot-mobile.png` files
 3. Empty the `_posts` folder
@@ -117,7 +117,7 @@ For more information about configuring this plugin, see the official [Jekyll Fee
 
 ### SEO tags
 
-Cayman Blog includes simple SEO tags from [jekyll-social-metatags](https://github.com/lorepirri/jekyll-social-metatags). Have a look at the page for its usage.
+Cayman Blog includes simple SEO tags from [jekyll-social-metatags](https://github.com/leipelt/jekyll-social-metatags). Have a look at the page for its usage.
 
 The usage is compatible with the plugin [Jekyll SEO Tag](https://github.com/jekyll/jekyll-seo-tag), which provides a battle-tested template of crowdsourced best-practices.
 
@@ -165,14 +165,14 @@ If you'd like to add your own custom styles:
 
 If you'd like to change the theme's HTML layout:
 
-1. [Copy the original template](https://github.com/lorepirri/cayman-blog/blob/master/_layouts/default.html) from the theme's repository<br />(*Pro-tip: click "raw" to make copying easier*)
+1. [Copy the original template](https://github.com/leipelt/hello-world/blob/master/_layouts/default.html) from the theme's repository<br />(*Pro-tip: click "raw" to make copying easier*)
 2. Create a file called `/_layouts/default.html` in your site
 3. Paste the default layout content copied in the first step
 4. Customize the layout as you'd like
 
 ### Sass variables
 
-If you'd like to change the theme's [Sass variables](https://github.com/lorepirri/cayman-blog/blob/master/_sass/variables.scss), set new values before the `@import` line in your stylesheet:
+If you'd like to change the theme's [Sass variables](https://github.com/leipelt/hello-world/blob/master/_sass/variables.scss), set new values before the `@import` line in your stylesheet:
 
 ```scss
 $section-headings-color: #0086b3;
@@ -184,7 +184,7 @@ $section-headings-color: #0086b3;
 
 Templates often rely on URLs supplied by GitHub such as links to your repository or links to download your project. If you'd like to override one or more default URLs:
 
-1. Look at [the template source](https://github.com/lorepirri/cayman-blog/blob/master/_layouts/default.html) to determine the name of the variable. It will be in the form of `{{ site.github.zip_url }}`.
+1. Look at [the template source](https://github.com/leipelt/hello-world/blob/master/_layouts/default.html) to determine the name of the variable. It will be in the form of `{{ site.github.zip_url }}`.
 2. Specify the URL that you'd like the template to use in your site's `_config.yml`. For example, if the variable was `site.github.url`, you'd add the following:
     ```yml
     github:
@@ -199,7 +199,7 @@ For more information, see [the Jekyll variables documentation](https://jekyllrb.
 
 ## Roadmap
 
-See the [open issues](https://github.com/lorepirri/cayman-blog/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/leipelt/hello-world/issues) for a list of proposed features (and known issues).
 
 ## Project philosophy
 
@@ -213,7 +213,7 @@ Interested in contributing to Cayman Blog? We'd love your help. Cayman Blog is a
 
 If you'd like to preview the theme locally (for example, in the process of proposing a change):
 
-1. Clone down the theme's repository (`git clone https://github.com/lorepirri/cayman-blog`)
+1. Clone down the theme's repository (`git clone https://github.com/leipelt/hello-world`)
 2. `cd` into the theme's directory
 3. Run `script/bootstrap` to install the necessary dependencies
 4. Run `bundle exec jekyll serve` to start the preview server

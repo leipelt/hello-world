@@ -2,12 +2,12 @@
 # frozen_string_literal: true
 
 Gem::Specification.new do |s|
-  s.name          = "jekyll-theme-cayman-blog"
+  s.name          = "jekyll-theme-hello-world"
   s.version       = "0.0.9"
   s.license       = "CC0-1.0"
   s.authors       = ["Lorenzo Pirritano"]
-  s.email         = ["lorepirri@gmail.com"]
-  s.homepage      = "https://github.com/lorepirri/cayman-blog"
+  s.email         = ["leipelt@gmail.com"]
+  s.homepage      = "https://github.com/leipelt/hello-world"
   s.summary       = "Cayman Blog Theme is a clean, responsive blogging theme for Jekyll and Gitlab/GitHub Pages. Based on Cayman theme."
 
   s.files         = `git ls-files -z`.split("\x0").select do |f|
