@@ -1,14 +1,14 @@
-# The Cayman Blog theme
+# The leipelt Blog theme
 
 [![Build Status](https://travis-ci.org/leipelt/hello-world.svg?branch=master)](https://travis-ci.org/leipelt/hello-world) [![Gem Version](https://badge.fury.io/rb/jekyll-theme-hello-world.svg)](https://badge.fury.io/rb/jekyll-theme-hello-world)
 
-*Cayman Blog is a Jekyll theme for GitHub Pages. It is based on the nice [Cayman theme](https://pages-themes.github.io/cayman/), with blogging features added. You can [preview the theme to see what it looks like](http://leipelt.github.io/hello-world), or even [use it today](#usage).*
+*leipelt Blog is a Jekyll theme for GitHub Pages. It is based on the nice [leipelt theme](https://pages-themes.github.io/leipelt/), with blogging features added. You can [preview the theme to see what it looks like](http://leipelt.github.io/hello-world), or even [use it today](#usage).*
 
 <img src="https://raw.githubusercontent.com/leipelt/hello-world/master/thumbnail.png" alt="Thumbnail of hello-world" style="max-width:30%; border: 1px solid grey;"/> <img src="https://raw.githubusercontent.com/leipelt/hello-world/master/thumbnail-mobile.gif" alt="Thumbnail of hello-world for mobile" style="max-width:30%;"/>
 
 ## Install
 
-Cayman Blog Theme has been developed as a Jekyll theme gem for easier use. It is also 100% compatible with GitHub Pages — just with a more involved installation process according to whether you’re _running Jekyll v3.3+ and self-hosting_, or if you’re *hosting with GitHub Pages*.
+leipelt Blog Theme has been developed as a Jekyll theme gem for easier use. It is also 100% compatible with GitHub Pages — just with a more involved installation process according to whether you’re _running Jekyll v3.3+ and self-hosting_, or if you’re *hosting with GitHub Pages*.
 
 ## Self hosting
 
@@ -40,9 +40,9 @@ If you’re *hosting your blog with GitHub Pages* you’ll have to consider this
 
 > If you’re publishing your Jekyll site on [GitHub Pages](https://pages.github.com/), note that GitHub Pages supports only some gem-based themes. See [Supported Themes](https://pages.github.com/themes/) in GitHub’s documentation to see which themes are supported.
 
-Therefore, this theme, as well as many others, can not be installed in the same way as the ones officially supported by GitHub Pages (e.g. Cayman, Minima), a bit more effort has to be put on.
+Therefore, this theme, as well as many others, can not be installed in the same way as the ones officially supported by GitHub Pages (e.g. leipelt, Minima), a bit more effort has to be put on.
 
-The easiest way I found to install _Cayman Blog Theme_, is [installing the theme gem](gem-install), and then [converting the gem-based theme to regular theme](https://jekyllrb.com/docs/themes/#converting-gem-based-themes-to-regular-themes).
+The easiest way I found to install _leipelt Blog Theme_, is [installing the theme gem](gem-install), and then [converting the gem-based theme to regular theme](https://jekyllrb.com/docs/themes/#converting-gem-based-themes-to-regular-themes).
 
 Alternatively, for new projects, one could fork the whole theme, and keep only the interesting files.
 
@@ -80,7 +80,7 @@ This method is preferred for existing _Jekyll blogs_, as well as newly created o
 
 ### Configuration variables
 
-Cayman Blog will respect the following variables, if set in your site's `_config.yml`:
+leipelt Blog will respect the following variables, if set in your site's `_config.yml`:
 
 ```yml
 title: [The title of your site]
@@ -117,7 +117,7 @@ For more information about configuring this plugin, see the official [Jekyll Fee
 
 ### SEO tags
 
-Cayman Blog includes simple SEO tags from [jekyll-social-metatags](https://github.com/leipelt/jekyll-social-metatags). Have a look at the page for its usage.
+leipelt Blog includes simple SEO tags from [jekyll-social-metatags](https://github.com/leipelt/jekyll-social-metatags). Have a look at the page for its usage.
 
 The usage is compatible with the plugin [Jekyll SEO Tag](https://github.com/jekyll/jekyll-seo-tag), which provides a battle-tested template of crowdsourced best-practices.
 
@@ -203,11 +203,11 @@ See the [open issues](https://github.com/leipelt/hello-world/issues) for a list 
 
 ## Project philosophy
 
-The Cayman Blog theme is intended to make it quick and easy for GitHub Pages users to create their first (or 100th) website. The theme should meet the vast majority of users' needs out of the box, erring on the side of simplicity rather than flexibility, and provide users the opportunity to opt-in to additional complexity if they have specific needs or wish to further customize their experience (such as adding custom CSS or modifying the default layout). It should also look great, but that goes without saying.
+The leipelt Blog theme is intended to make it quick and easy for GitHub Pages users to create their first (or 100th) website. The theme should meet the vast majority of users' needs out of the box, erring on the side of simplicity rather than flexibility, and provide users the opportunity to opt-in to additional complexity if they have specific needs or wish to further customize their experience (such as adding custom CSS or modifying the default layout). It should also look great, but that goes without saying.
 
 ## Contributing
 
-Interested in contributing to Cayman Blog? We'd love your help. Cayman Blog is an open source project, built one contribution at a time by users like you. See [the CONTRIBUTING file](docs/CONTRIBUTING.md) for instructions on how to contribute.
+Interested in contributing to leipelt Blog? We'd love your help. leipelt Blog is an open source project, built one contribution at a time by users like you. See [the CONTRIBUTING file](docs/CONTRIBUTING.md) for instructions on how to contribute.
 
 ### Previewing the theme locally
 
