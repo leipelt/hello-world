@@ -13,7 +13,7 @@ google_analytics:
 hello-world:
   date_format: "%b %-d, %Y"
 
-theme: # leave it empty
+theme: jekyll-theme-leap-day
 
 # social
 author: leipelt
