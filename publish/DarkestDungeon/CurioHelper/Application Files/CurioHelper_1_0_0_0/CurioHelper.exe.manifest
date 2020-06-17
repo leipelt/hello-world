@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CurioHelper.exe" size="166400">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CurioHelper.exe" size="168448">
       <assemblyIdentity name="CurioHelper" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>+tnvkihy2aa9ur20qMgFi6qz+xpoJPOnPQSf7GgBTBs=</dsig:DigestValue>
+        <dsig:DigestValue>q0GOamEkHvd4+0TGusbbM9i+fC5ccNqovxoV5nW+uT4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -86,7 +86,7 @@
     </hash>
   </file>
   <file name="data\골동품목록.json" size="29382" />
-  <file name="도움말.txt" size="2194" />
+  <file name="도움말.txt" size="2350" />
   <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
     <application>
       <!-- 이 애플리케이션이 테스트되고 함께 작동하도록 설계된 Windows 버전
